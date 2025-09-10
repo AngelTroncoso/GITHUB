@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
-    "type": "SemanticModel",
-    "displayName": "Github"
+    "type": "Dataflow",
+    "displayName": "Gen2_Github"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "e0ebda36-f28c-455a-a2c1-52c187f7ea89"
+    "logicalId": "b76bbc78-d2c5-815f-44cd-3c7a5d7ae721"
   }
 }

@@ -1,0 +1,32 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Gen2_Github",
+  "queryGroups": [],
+  "documentLocale": "es-ES",
+  "queriesMetadata": {
+    "DefaultDestination": {
+      "queryId": "6f8586f2-8174-4ff5-a965-e4bf5f5fb681",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "camara_seguridad_blue_express": {
+      "queryId": "4db98130-3f14-4b68-a8cb-3838d71f28f2",
+      "queryName": "camara_seguridad_blue_express",
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"9e252388-995b-41f0-acc1-b6d4ac74f67b\",\"DatasourceId\":\"9529b589-248b-409a-bb04-e3e383d1075c\"}"
+    },
+    {
+      "path": "https://eureka595-my.sharepoint.com/personal/angeltroncoso_eureka595_onmicrosoft_com/",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"9e252388-995b-41f0-acc1-b6d4ac74f67b\",\"DatasourceId\":\"5d7cab1c-3939-4edb-a78c-f1d83fe2ffb5\"}"
+    }
+  ]
+}
